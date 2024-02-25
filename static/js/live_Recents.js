@@ -7,7 +7,7 @@ function ShowAjaxRecentList(parent)
 	{
 		jQuery.ajax(
 		{
-			url: "/sidebar.json", // 호출 URL
+			url: "https://namgall.wikiing.in/api/open_recent_changes/10", // 호출 URL
 			dataType:'json'
 		}
 			)
